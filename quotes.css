@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(56, 55, 51);
+}
+
+.container {
+    height: 70vh;
+    width: 70%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container .box {
+    height: 90%;
+    width: 90%;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+}
+
+.container .box .emogi h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container .box .emogi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quotsbox {
+    height: 40%;
+    width: 90%;
+    /* margin-top: 50px; */
+    /* background-color: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.quotsbox p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.button {
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-radius: 10px;
+    border: none;
+}
